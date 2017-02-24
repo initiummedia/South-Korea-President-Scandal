@@ -1,0 +1,68 @@
+{
+"title": {
+"text": "親信干政醜聞，朴槿惠民調急降",
+"subtext": "數據來源：Gallup Korea、The Opinion"
+},
+"tooltip": {
+"trigger": "axis",
+"formatter": "{b}<br/>{c}%"
+},
+"toolbox": {
+"show": true
+},
+"legend": {
+"left": "center",
+"data": [
+"民調支持率 (%)"
+]
+},
+"grid": {
+"right": "10%",
+"top": "36%"
+},
+"xAxis": [
+{
+"type": "category",
+"axisLabel": {
+"interval": 0,
+"show": true
+},
+"data": [
+"10月21日",
+"10月28日",
+"11月1日",
+"11月4日"
+]
+}
+],
+"yAxis": [
+{
+"type": "value",
+"name": "支持度 (%)",
+"nameLocation": "middle",
+"nameGap": "23",
+"axisLabel": {
+"formatter": "{value}"
+}
+}
+],
+"series": [
+{
+"name": "民調支持率",
+"label": {
+"normal": {
+"show": true,
+"position": "top",
+"formatter": "{c}%"
+}
+},
+"type": "line",
+"data": [
+25,
+17,
+9.2,
+5
+]
+}
+]
+}
